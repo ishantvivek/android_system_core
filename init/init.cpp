@@ -811,8 +811,7 @@ static void import_kernel_nv(char *name, bool for_emulator)
 
 static void export_kernel_boot_props() {
 	char tmp[PROP_VALUE_MAX];
-
- int ret;
+	int ret;
     struct {
         const char *src_prop;
         const char *dst_prop;
